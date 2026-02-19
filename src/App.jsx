@@ -8,9 +8,13 @@ function App() {
   const [projectsState, setProjectsState] = useState({
     // currentAction: 'nothing-selected',
     selectedProjectId: undefined,
-    projects: []
+    projects: [],
+    tasks: []
   });
+  function handleAddTask() {}
 
+  function handleDeleteTask() {}
+  
   function handleSelectProject(id) {
     setProjectsState((prevState) => {
       return {
